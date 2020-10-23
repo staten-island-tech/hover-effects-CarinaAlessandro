@@ -1,0 +1,20 @@
+@import "./variables";
+.bird-parent {
+  width: 60rem;
+  height: 40rem;
+  background-color: red;
+}
+.bird-gallery {
+  margin: 3rem;
+  position: relative;
+}
+.seagulls {
+  position: absolute;
+  height: 20rem;
+  box-shadow: 0 1.5rem 1 rem rgba(0, 0, 0, 0.4);
+  transition: all 0.3s;
+}
+.tern {
+  top: 10rem;
+  left: 15%;
+}
