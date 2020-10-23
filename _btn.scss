@@ -1,1 +1,47 @@
-@import"_variables.scss";
+@import "_variables.scss"; /*otherwise wont have access to variables*/
+.btn, .btn:link, .btn:visited /*pseudoclass*/ {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: color(red);
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  transition: all 0.3s; /*for transitions like transform so they dont look wack*/
+  position: relative;
+}
+.btn-red {
+  background-color: color(red);
+  box-shadow: 0 10px 0.5 rem rgba(color(black /*alpha value*/) 0.6); /*x y thickness color*/
+  color: white;
+}
+.btn-red::after {
+  background-color: color(red);
+  box-shadow: 0 10px 0.5 rem rgba(color(black * /) 0.6);
+  color: white;
+}
+.btn:hover {
+  transform: translateY(-2px) /*scale(1.25)*/;
+}
+.btn::after /*inline by default*/ {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%; /* its mirroring the parent, btn*/
+  border-radius: 10rem;
+  position: absolute; /*so it stays in the same og position as parent; needs a relative to work btw*/
+  top: 0;
+  left: 0;
+  z-index: -1; /*layers i think*/
+  transition: 0.3s;
+}
+.btn:hover::after {
+  transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0; /*then it disappears*/
+}
+.btn:active {
+  transform: translateY(-1px);
+  transform: scaleX(1.5) scaleY(1.6);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+/*want more buttons? codepen*/
