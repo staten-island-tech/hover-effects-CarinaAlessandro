@@ -21,7 +21,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: #ff5722;
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
@@ -31,16 +30,15 @@ body {
   position: relative;
 }
 
-.btn-red {
-  background-color: #ff5722;
+.btn-purple {
   -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
   /*x y thickness color*/
   color: white;
 }
 
-.btn-red::after {
-  background-color: #ff5722;
+.btn-purple::after {
+  background-color: #000;
   -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
 }
