@@ -12,13 +12,12 @@
 }
 .btn-red {
   background-color: color(red);
-  box-shadow: 0 10px 0.5 rem rgba(color(black /*alpha value*/) 0.6); /*x y thickness color*/
+  box-shadow: 0 10px 0.5rem rgba(color(black), 0.6 /*alpha value*/); /*x y thickness color*/
   color: white;
 }
 .btn-red::after {
   background-color: color(red);
-  box-shadow: 0 10px 0.5 rem rgba(color(black * /) 0.6);
-  color: white;
+  box-shadow: 0 10px 0.5rem rgba(color(black), 0.6);
 }
 .btn:hover {
   transform: translateY(-2px) /*scale(1.25)*/;

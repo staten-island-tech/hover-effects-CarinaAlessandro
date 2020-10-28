@@ -6,7 +6,10 @@ body {
   box-sizing: border-box;
 }
 $colors: (
-  red: #ff5722; white: #ffffff; blue: #00b0ff black: #000;,
+  red: #ff5722,
+  white: #ffffff,
+  blue: #00b0ff,
+  black: #000,
 );
 @function color($color-name) {
   @return map-get($colors, $color-name);
