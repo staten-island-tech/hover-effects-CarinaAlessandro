@@ -1,12 +1,17 @@
+.images {
+  width: 15vw;
+}
+
 html,
 body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Playfair Display", serif;
 }
 $colors: (
-  red: #ff5722,
+  gray: #222,
   white: #ffffff,
   blue: #00b0ff,
   black: #000,

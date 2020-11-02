@@ -1,21 +1,37 @@
-@import "_variables.scss"; /*otherwise wont have access to variables*/
+/*.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #777;
+  color: $primary-color;
+  padding: 10px 15px;
+  border: 1rem;
+}
+.btn:hover {
+  background-color: #444;
+  color: $primary-color;
+  padding: 10px 15px;
+  border: none;
+}
+*/
+@import "_variables.scss";
+
 .btn, .btn:link, .btn:visited /*pseudoclass*/ {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: color(teal);
+  background-color: color(blue);
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
   transition: all 0.3s; /*for transitions like transform so they dont look wack*/
   position: relative;
 }
-.btn-purple {
+.btn-blue {
   background-color: color(purple);
   box-shadow: 0 10px 0.5rem rgba(color(black), 0.6 /*alpha value*/); /*x y thickness color*/
-  color: red;
+  color: gray;
 }
-.btn-purple::after {
+.btn-blue::after {
   background-color: color(black);
   box-shadow: 0 10px 0.5rem rgba(color(black), 0.6);
 }

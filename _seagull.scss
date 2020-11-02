@@ -1,0 +1,7 @@
+@import "_variables.scss";
+.seagull:hover{
+  -webkit-animation: circle 1.5s ease-in forwards;
+}
+.seagull{
+   transition: all .3s; 
+}
