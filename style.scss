@@ -1,8 +1,8 @@
 @import "_variables.scss";
 @import "_btn.scss";
 @import "_seagull.scss";
-@import"_beak.scss";
-@import"_tern.scss";
+@import "_beak.scss";
+@import "_tern.scss";
 $primary-color: rgb(0, 116, 161);
 body {
   margin: 0;
@@ -17,8 +17,9 @@ body {
   padding-bottom: 5vh;
   color: #c41274;
   background-color: rgb(193, 227, 225);
+  transition: all 3s;
 }
-.header:hover{
+.header:hover {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em); /*from codepen*/
 }
