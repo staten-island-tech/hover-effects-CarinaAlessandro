@@ -1,16 +1,18 @@
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.images {
+  width: 15vw;
 }
-$colors: (
-  red: #ff5722,
-  white: #ffffff,
-  blue: #00b0ff,
-  black: #000,
-);
-@function color($color-name) {
-  @return map-get($colors, $color-name);
+.button {
+  background-color: #777;
+  color: $primary-color;
+  padding: 10px 15px;
+  border: none;
+}
+.button:hover {
+  background-color: #444;
+  color: $primary-color;
+  padding: 10px 15px;
+  border: none;
+}
+body {
+  font-family: "Playfair Display", serif;
 }

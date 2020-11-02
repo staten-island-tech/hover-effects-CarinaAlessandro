@@ -14,3 +14,34 @@
   align-items: center;
   text-align: center;
 }
+$primary-color: rgb(0, 116, 161);
+body {
+  margin: 0;
+}
+.header {
+  background-size: cover;
+  text-align: center;
+  min-height: 20vh;
+  line-height: 20vh;
+  font-size: 12vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color: #c41274;
+  background-color: rgb(193, 227, 225);
+}
+
+.box {
+  width: 30vw;
+  color: $primary-color;
+  text-align: center;
+  padding: 5vh;
+  margin: 5vh;
+  background-color: rgb(213, 193, 227);
+}
+.heading-main {
+  font-size: 3rem;
+}
+.heading-sub {
+  font-size: 1rem;
+}
+
