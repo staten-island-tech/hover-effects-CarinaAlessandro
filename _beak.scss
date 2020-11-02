@@ -1,0 +1,12 @@
+/*hey dont specify both width AND height- itll mess up aspect rato*/
+@import "_variables.scss";
+.beak {
+  height: 20rem;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+.beak:hover {
+  border-radius: 0;
+  filter: sepia(100%);
+  transform: scale(1.3);
+}
