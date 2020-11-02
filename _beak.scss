@@ -1,10 +1,10 @@
-@import"_variables.scss";
+@import "_variables.scss";
 
-.beak:hover{
- filter: grayscale(70%)
- transform: translateY(-1px);
+.beak:hover {
+  filter: grayscale(70%);
+  transform: translateY(-1px);
   box-shadow: 0 3rem 1 rem rgba(0, 0, 0, 0.4);
 }
-.beak{
-     transition: all .3s; 
+.beak {
+  transition: all 0.3s;
 }

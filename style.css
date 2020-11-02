@@ -107,6 +107,83 @@ body {
 }
 
 /*want more buttons? codepen*/
+.images {
+  width: 15vw;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+.seagull:hover {
+  -webkit-animation: circle 1.5s ease-in forwards;
+}
+
+.seagull {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.images {
+  width: 15vw;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+.beak:hover {
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 3rem 1 rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3rem 1 rem rgba(0, 0, 0, 0.4);
+}
+
+.beak {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.images {
+  width: 15vw;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+.tern {
+  -webkit-transform: all 0.3s;
+          transform: all 0.3s;
+}
+
+.tern:hover {
+  -webkit-filter: sepia(90%);
+          filter: sepia(90%);
+  -webkit-transform: scalex(0.9) scale(0.9);
+          transform: scalex(0.9) scale(0.9);
+}
+
 body {
   margin: 0;
 }
@@ -121,6 +198,16 @@ body {
   padding-bottom: 5vh;
   color: #c41274;
   background-color: #c1e3e1;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.header:hover {
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+  /*from codepen*/
 }
 
 .container {
@@ -154,5 +241,9 @@ body {
 
 .heading-sub {
   font-size: 1rem;
+}
+
+.images {
+  width: 15vw;
 }
 /*# sourceMappingURL=style.css.map */

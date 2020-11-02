@@ -1,9 +1,8 @@
-@import"_variables.scss";
-.tern{
-    transform: all .3s;
+@import "_variables.scss";
+.tern {
+  transform: all 0.3s;
 }
-.tern:hover{
-     filter: sepia(90%);
-   transform: scalex(.9)scale(.9)
-
+.tern:hover {
+  filter: sepia(90%);
+  transform: scalex(0.9) scale(0.9);
 }
