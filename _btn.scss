@@ -11,9 +11,9 @@
   position: relative;
 }
 .btn-purple {
-  background-color: color(p);
+  background-color: color(purple);
   box-shadow: 0 10px 0.5rem rgba(color(black), 0.6 /*alpha value*/); /*x y thickness color*/
-  color: white;
+  color: red;
 }
 .btn-purple::after {
   background-color: color(black);
